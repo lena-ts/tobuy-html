@@ -338,12 +338,22 @@ nav .links a {
 
     nav .links {
         padding: 2rem;
+        display: none;
     }
 
     #intro {
         height: auto;
         padding: 2rem;
     }
+    
+    #intro .social {
+	    display: none;
+    }
+    
+     #intro h1 {
+	     font-size: 40px;
+	     line-height: 40px;
+     }
 
     .intro-content-text {
         max-width: 100%;
