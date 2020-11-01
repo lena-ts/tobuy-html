@@ -411,6 +411,10 @@ nav .links a {
     #story .parts-wrapper {
         flex-direction: column;
     }
+    
+    #story .images {
+	    grid-template-columns: unset;
+    }
 
     #feedback {
         display: none;
