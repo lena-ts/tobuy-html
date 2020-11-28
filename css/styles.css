@@ -129,6 +129,7 @@ nav .links a {
     margin-top: 10px;
 }
 
+
 /** INTRO **/
 #intro {
     background: url('../images/intro_bg_min.png');
@@ -287,9 +288,10 @@ nav .links a {
 /** FOOTER **/
 #footer {
     text-align: center;
+    padding-bottom: 1rem;
 }
 
-#footer a {
+#footer .mail {
     color: #2b2b2b;
     font-weight: 500;
     font-size: 18px;
@@ -306,6 +308,15 @@ nav .links a {
 
 #footer .social{
     margin-top: 2rem;
+}
+
+.footer-links {
+    margin-top: 3rem;
+}
+
+.footer-links a {
+    font-size: 14px;
+    padding: 0 0.7rem;
 }
 
 .copyright {
