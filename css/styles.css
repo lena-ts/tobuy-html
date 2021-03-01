@@ -158,6 +158,10 @@ nav .links a {
     width: 400px;
 }
 
+.android-button {
+    margin-left: 5px;
+}
+
 /** WIDGETS **/
 #widgets .section-image {
     text-align: right;
@@ -373,6 +377,10 @@ nav .links a {
 
     .intro-content-image img {
         max-width: 300px;
+    }
+
+    .android-button {
+        margin-left: 0;
     }
 
     .container {
