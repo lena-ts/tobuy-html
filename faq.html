@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ToBuy - Shopping list for iPhone</title>
+    <meta name="description" content="Shopping list app for ios, iOS 14 widgets, grocery list app">
+    <meta name="keywords" content="Shopping list, grocery list, shopping, ios, iphone, ios 14 widgets, todo list">
+    <meta name="author" content="ToBuy App">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icon.png">
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            $("#accordion").accordion({
+                heightStyle: "content",
+                collapsible: true,
+                active: false
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <!--Intro-->
+    <section id="intro">
+        <div class="container">
+            <nav>
+                <a href="index.html" target="_blank">
+                    <div class="logo">ToBuy</div>
+                </a>
+            </nav>
+            <div class="intro-content half-section-wrapper">
+                <div class="intro-content-text half-section">
+                    <h1>FAQ</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="faq">
+        <div class="container">
+            <div id="accordion">
+                <h3><span class="bullet"><span class="arr">►</span></span> How to add quantity to a product?</h3>
+                <div class="accordion_content">
+                    <p>
+                        Longtap on product title
+                    </p>
+                    <img src="images/faq_qty.gif" class="gif-image">
+                </div>
+                <h3><span class="bullet"><span class="arr">►</span></span> How to setup own photo?</h3>
+                <div class="accordion_content left-position">
+                    <ol>
+                        <li>Open category</li>
+                        <li>Tap "pencil" to edit category</li>
+                        <li>Tap on produt title to edit product</li>
+                        <li>Tap on product image to edit image</li>
+                    </ol>
+                    <img src="images/faq_add_photo.gif" class="gif-image">
+                </div>
+                <h3><span class="bullet"><span class="arr">►</span></span> How to create new list?</h3>
+                <div class="accordion_content">
+                    <p>
+                        Tap arrow at the list title in the top
+                    </p>
+                    <img src="images/faq_multiple_lists.gif" class="gif-image">
+                </div>
+                <h3><span class="bullet"><span class="arr">►</span></span> How share list with others? </h3>
+                <div class="accordion_content">
+                    <p>
+                        Tap button at the top right corner, then choose "Share list"
+                    </p>
+                    <img src="images/faq_share_list.gif" class="gif-image">
+                </div>
+                <h3><span class="bullet"><span class="arr">►</span></span> How to change categories order? </h3>
+                <div class="accordion_content">
+                    <p>
+                        Open "Settings", tap on "Categories order"
+                    </p>
+                </div>
+                <h3><span class="bullet"><span class="arr">►</span></span> How to setup widget? </h3>
+                <div class="accordion_content">
+                    <p>
+                        Tap on "Edit" homescreen, search for ToBuy widgets, setup widget
+                    </p>
+                    <img src="images/faq_widget.gif" class="gif-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Footer-->
+    <section id="footer">
+        <h2>Contact Us</h2>
+        <p class="gray-text">We are open to any suggestions and thoughts,
+            feel free to contact us by email</p>
+        <br>
+        <a href="mailto:@tobuyapp.ios@gmail.com" class="mail">tobuyapp.ios@gmail.com</a>
+        <div class="social">
+            <a href="https://www.facebook.com/tobuyapplication/" title="facebook" class="social-icon facebook"
+                target="_blank"></a>
+            <a href="https://www.instagram.com/tobuyapp/" title="instagram" class="social-icon instagram"
+                target="_blank"></a>
+        </div>
+        <div class="footer-links">
+            <a href="privacy-policy.html" target="_blank" class="gray-text">Privacy Policy</a>
+            <a href="terms.html" target="_blank" class="gray-text">Terms of Use</a>
+        </div>
+    </section>
+    <div class="copyright">© ToBuy App 2020</div>
+</body>
+
+</html>
