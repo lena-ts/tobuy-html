@@ -93,6 +93,7 @@ nav .links a {
     background-size: cover;
     margin-right: 10px;
     vertical-align: middle;
+    border-radius: 10px;
 }
 
 /** Social Icons **/
@@ -100,7 +101,7 @@ nav .links a {
     display: inline-block;
     width: 37px;
     height: 37px;
-    background: rgba(60, 187, 110, 1);
+    background: #1FCC67;
     border-radius: 10px;
     vertical-align: middle;
     text-align: center;
@@ -143,6 +144,7 @@ nav .links a {
     display: flex;
     justify-content: space-between;
     align-items: top;
+    margin-top: 50px;
 }
 
 .intro-content-text {
@@ -152,7 +154,7 @@ nav .links a {
 }
 
 .intro-content-image img {
-    max-width: 500px;
+    max-width: 380px;
 }
 
 .intro-phones img {
